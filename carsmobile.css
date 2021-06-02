@@ -1,0 +1,10 @@
+@media (max-width: 800px) {
+    .cars_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .filter_cars{
+        min-width: 100px;
+    }
+}

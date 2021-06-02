@@ -10,7 +10,8 @@ import displayAvailable from './displayAvaiable.js';
 const carFilter = document.querySelector(".filter_cars");
 const carListHeader = document.querySelector(".carlist-header")
 const carsDisplay = document.querySelector(".cars");
-const pagination = document.querySelector(".pagination");
+const pagination = document.querySelector(".pagination-buttons");
+const paginationInfo = document.querySelector(".pagination-info");
 const sortCar = document.querySelector('.sort-car');
 const gearDropDown = document.querySelector('.gearcontainer');
 const fuelDropDown = document.querySelector('.fuel_type');
@@ -45,7 +46,7 @@ const setupUI = () => {
     console.log(pages[index]);
     displayCars(pages[index]);
     displaySort(pages[index]);
-    displayPagination(pagination,pages,index);
+    displayPagination(paginationInfo,pagination,pages,index,index);
     displayGear(gearDropDown,pages[index]);
     displayFuel(fuelDropDown,pages[index]);
     displayAvailable(pages[index])

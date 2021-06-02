@@ -1,4 +1,14 @@
+body{
+    margin:0px
+}
+
+.container__header{
+    background-color:  rgb(12, 50, 100);
+    padding:10px;
+}
+
 .main-container{
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,6 +16,7 @@
 
 .cars_container{
     display: flex;
+    flex-direction: row;
     justify-content: center; 
     max-width: 1200px;
     margin-left: 180px;
@@ -21,6 +32,7 @@
 
 .carlist-header{
     display: inline-flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px 10px 20px;
@@ -36,6 +48,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
+}
+
+.no-cars{
+    padding:20px;
+    text-align: center;
 }
 
 .car-details{
@@ -81,9 +98,12 @@
 
 .pagination{
     display: flex;
+    align-items: center;
     padding: 20px 0px 20px 0px;
     font-weight: 800;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 1px solid lightgray;
 }
 
 .active-btn {
@@ -139,7 +159,7 @@
     display: flex;
     align-items: center;
     height: 70px;
-    background-color: rgb(18, 36, 114);
+    background-color: rgb(12, 50, 100);
     border-radius: 8px;
     padding-left: 20px;
     font-size: 30px;
@@ -227,7 +247,7 @@
     border-radius: 5px;
     color: white;
     font-size: 15px;
-    font-weight: 800;
+    font-weight: 1000;
     border:none;
     box-shadow: 0    8px 16px 0 lightgray;
     cursor: pointer;

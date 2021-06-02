@@ -1,7 +1,7 @@
 const carsList = document.querySelector('.cars');
 
 const displayCars = (cars) =>{
-    const newCars = cars.map((car)=>{
+    const newCars = cars.length ? cars.map((car)=>{
         const {Name,Gearbox_type,Capacity,Fuel_type,Category,Image,Rate} = car
         return `
             <div class='car-details'>
@@ -20,7 +20,7 @@ const displayCars = (cars) =>{
                 </div>
             </div>
         `
-    }).join('')
+    }).join('') : `<div class='no-cars'>No Cars Available</div>`
 
     carsList.innerHTML = newCars;
 }
