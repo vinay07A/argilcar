@@ -86,7 +86,6 @@ sortCar.addEventListener('change',function(e){
 applyFilter.addEventListener('click',function(){
     let gearType = document.getElementById("gear-type").value;
     let fuelType = document.getElementById("fuel-type").value;
-    console.log(gearType,fuelType)
     const filters ={}
     if(gearType != '') filters.Gearbox_type = gearType
     if(fuelType != '') filters.Fuel_type = fuelType

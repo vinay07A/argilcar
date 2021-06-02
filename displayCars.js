@@ -5,9 +5,10 @@ const displayCars = (cars) =>{
         const {Name,Gearbox_type,Capacity,Fuel_type,Category,Image,Rate} = car
         return `
             <div class='car-details'>
-                <p>${Name}</p>
-                <img src="${Image}" alt="${Name.toLowerCase()}"  height='200px'/>
-                <span>$ ${Rate}/Day</span>
+                <p class='car-title'>${Name.toUpperCase()}</p>
+                <img class='car-img' src="${Image}" alt="${Name.toLowerCase()}"  height='200px'>
+                    <span class='car-rate'>$ ${Rate}/Day</span>
+                </img>
                 <div class='car-feature'>
                     <b>Sports </b>
                     <b>|</b>

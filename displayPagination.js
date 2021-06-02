@@ -1,7 +1,7 @@
 const displayPagination = (container, pages, activeIndex) => {
     let btns = pages.map((_, pageIndex) => {
       return ` 
-                <button class="page-btn ${activeIndex === pageIndex ? 'active-btn' : 'null '}" data-index="${pageIndex}">
+                <button class="page-btn ${activeIndex === pageIndex ? 'active-btn' :'btn'}" data-index="${pageIndex}">
                     ${pageIndex + 1}
                 </button>
             `
