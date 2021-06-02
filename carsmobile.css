@@ -1,10 +1,35 @@
 @media (max-width: 800px) {
-    .cars_container {
-        display: flex;
+    .main-container{
         flex-direction: column;
-        justify-content: center; 
+    }
+    .cars_container{
+        flex-direction: column;
+        margin:10px;
     }
     .filter_cars{
-        min-width: 100px;
+        min-width: auto;
+    }
+    .gearcontainer{
+        text-align: center;
+    }
+    .cars_list{
+        margin-left: 0px;
+    }
+    .carlist-header{
+        margin-top: 10px;
+    }
+    .cars{
+        justify-content: center;
+    }
+    .pageinfo{
+        display: none;
+    }
+    .filter-options{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .page-btn.btn {
+        margin:0px
     }
 }

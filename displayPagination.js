@@ -1,5 +1,5 @@
 const displayPagination = (paginationInfo,paginationButtons, pages, activeIndex,currentIndex) => {
-    const pagInfo = `Page ${++currentIndex} Of ${pages.length}`
+    const pagInfo = `<p class='pageinfo'>Page ${++currentIndex} Of ${pages.length}</p>`
     let btns = pages.map((_, pageIndex) => {
       return ` 
                 <button class="page-btn ${activeIndex === pageIndex ? 'active-btn' :'btn'}" data-index="${pageIndex}">
