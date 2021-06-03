@@ -21,6 +21,9 @@
     .cars{
         justify-content: center;
     }
+    .pagination{
+        justify-content: center;
+    }
     .pageinfo{
         display: none;
     }

@@ -54,6 +54,7 @@ const setupUI = () => {
 
 
 pagination.addEventListener('click',function(e){
+    filteredCars=[];
     if (e.target.classList.contains('pagination')) return
     if (e.target.classList.contains('page-btn')) {
         index = parseInt(e.target.dataset.index)

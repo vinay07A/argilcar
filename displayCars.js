@@ -10,13 +10,13 @@ const displayCars = (cars) =>{
                     <span class='car-rate'>$ ${Rate}/Day</span>
                 </img>
                 <div class='car-feature'>
-                    <b>Sports </b>
+                    <b>${Category} </b>
                     <b>|</b>
-                    <b>Auto</b>
+                    <b>${Gearbox_type}</b>
                     <b>|</b>
-                    <b>2 Passengers</b>
+                    <b>${Capacity} Passengers</b>
                     <b>|</b>
-                    <b>Gasoline</b>
+                    <b>${Fuel_type}</b>
                 </div>
             </div>
         `
