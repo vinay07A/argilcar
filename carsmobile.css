@@ -1,4 +1,7 @@
 @media (max-width: 800px) {
+    .car-helpline-top{
+        width: 100%;
+    }
     .main-container{
         flex-direction: column;
     }
@@ -7,7 +10,7 @@
         margin:10px;
     }
     .filter_cars{
-        min-width: auto;
+        margin:0px 37px 0px 47px;
     }
     .gearcontainer{
         text-align: center;
@@ -16,10 +19,13 @@
         margin-left: 0px;
     }
     .carlist-header{
-        margin-top: 10px;
+        margin:0px 37px 0px 47px;
     }
     .cars{
         justify-content: center;
+    }
+    .car-title{
+        text-align: center;
     }
     .pagination{
         justify-content: center;
@@ -40,5 +46,21 @@
     }
     .car-header{
         padding:10px
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .footer-list{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-list ul{
+        margin-left: auto
+    }
+    .footer_menu{
+        width: auto;
     }
 }
