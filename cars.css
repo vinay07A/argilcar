@@ -198,6 +198,7 @@ body{
 .car-img{
     object-fit: cover;
     width: 100%;
+    margin-bottom: -12px
 }
 
 .car-rate{
@@ -209,7 +210,6 @@ body{
     padding: 5px;
     border-radius: 4px;
     text-align: center;
-    margin-top: -13px;
     font-weight: 500;
 }
 
@@ -404,12 +404,6 @@ body{
 
 .footer-list{
     padding:50px 0px;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 40px;
-    justify-content: space-around; */
 }
 .footer_container{
     max-width: 1180px;
@@ -418,13 +412,14 @@ body{
 .footer_row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-right: -15px;
     margin-left: -15px;
 }
 
 .footer_menu{
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 
 .brand_logo{
@@ -445,3 +440,16 @@ body{
     font-family: sans-serif;
     font-size: 15px;
 }
+
+.footer_menu2{
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-top: -16px;
+}
+
+.footer_menu3{
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-top: -16px;
+}
+

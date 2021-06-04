@@ -66,4 +66,23 @@
     .footer_menu{
         width: auto;
     }
+    .footer_menu p{
+        margin-left: 40px;
+    }
+    .footer_row{
+        flex-direction: column;
+        margin:0px auto;
+    }
+    .footer_menu{
+        flex: 0;
+        max-width: none;
+    }
+    .footer_menu2{
+        flex: 0;
+        max-width: none;
+    }
+    .footer_menu3{
+        flex: 0;
+        max-width: none;
+    }
 }
