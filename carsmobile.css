@@ -2,6 +2,9 @@
     .car-helpline-top{
         width: 100%;
     }
+    .car-header-top{
+        width: 100%;
+    }
     .main-container{
         flex-direction: column;
     }
