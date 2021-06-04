@@ -6,9 +6,11 @@ const displayCars = (cars) =>{
         return `
             <div class='car-details'>
                 <p class='car-title'>${Name.toUpperCase()}</p>
-                <img class='car-img' src="${Image}" alt="${Name.toLowerCase()}" width='400px'  height='200px'>
-                    <span class='car-rate'>$ ${Rate}/Day</span>
-                </img>
+                <div>
+                    <img class='car-img' src="${Image}" alt="${Name.toLowerCase()}" height='200px'>
+                        <span class='car-rate'>$ ${Rate}/Day</span>
+                    </img>
+                </div>
                 <div class='car-feature'>
                     <b>${Category} </b>
                     <b>|</b>
