@@ -29,7 +29,7 @@ class Cars{
                 method:'get',
                 headers:{
                     'Content-Type': 'application/json',
-                    'secret-key':'$2b$10$XnRQ8lXD0phXmFoYQp5.VOBeiO3TmKBs8hfmZ2Uw04Ju3rpP/Bi6i'
+                    'secret-key':'$2b$10$cwHMhEH8RDUF2aVyNkspF.8OJcJGrqHrBb8uyvXdXQhaopx2bZUxi'
                 }
             });
             let data = await result.json();
