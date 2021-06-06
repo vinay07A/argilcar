@@ -34,16 +34,15 @@ class Cars{
             });
             let data = await result.json();
             let carslist = data;
-            pages = paginate(carslist);
-            return pages;
+            pages = await paginate(carslist);
           } catch (error) {
-            console.log(err);
+            console.log(error);
           }
     }
 }
 
 const setupUI = () => {
-    console.log(pages[index]);
+    console.log("calling...",pages[index]);
     displayCars(pages[index]);
     displaySort(pages[index]);
     displayPagination(paginationInfo,pagination,pages,index,index);
